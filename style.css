@@ -1,0 +1,309 @@
+/************************************************home***********************************************************/
+#home{padding: 2%;
+    background-color:#000;
+    text-align: center;
+}
+#home  h1{
+    margin-top: 10%;
+    margin-left: 4.5%;
+}
+#home h2{
+    font-size: 50px;
+    font-family: 'Berkshire Swash', cursive;
+    color: gray;
+    
+}
+
+#home  h1{
+    margin-left: 6%;
+    font-size: 70px;
+    font-family: 'Satisfy', cursive;
+    color: gray;
+}
+#home button{
+    margin: 3% auto;
+    padding: auto;
+}
+.logo{
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+}
+.phoneimg{
+    margin-top: 20%;
+    margin-left: 2%;
+    transform: rotate(-25deg);
+    width: 35%;
+    position: relative;
+}
+
+
+/**********************************************about******************************************************/
+
+#features{
+    text-align: center;
+    padding: 5% 10%;
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+    
+}
+.feature-box{
+    text-align: center;
+    padding: 3%;
+}
+.features-box h3{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 3em;
+}
+
+.features-box p{
+    font-family: 'Satisfy', cursive;
+    font-size: 2em;
+    color: rgba(101, 105, 104, 0.568);
+}
+.features-box img{
+    padding-bottom: 0%;
+    margin-bottom: 1%;
+    width: 30%;
+    border-radius: 100%;
+    
+}
+.hr1 {
+    border-style:none;
+    border-color:#000;
+    border-top-style: dotted ;
+    border-width: 4px;
+    width: 15%; 
+    margin: 8px auto;
+    
+}
+
+/************************************************ testimonials ***********************************************/
+
+#testimonials{
+    padding: 5% 10%; 
+    text-align: center !important;
+    background-color: #000;
+
+}
+.carousel-item{
+    margin-bottom: 1%;
+    
+}
+
+#testimonials h2{
+    font-size: 70px;
+    font-family: 'Berkshire Swash', cursive;
+    color: gray;
+    margin-bottom: 5%;
+}
+
+#testimonials  em{
+    font-family: 'Satisfy', cursive;
+    color: rgba(101, 105, 104, 0.568);
+}
+
+.testimonial-img{
+    width: 10%;
+}
+
+.hr2 {
+    border-style:none;
+    border-color:#fff;
+    border-top-style: dotted ;
+    border-width: 4px;
+    width: 11%; 
+    margin: 0 auto 2% auto;
+    
+}
+
+.title {
+    font-size: 70px;
+    font-family: 'Berkshire Swash', cursive;
+    color: gray;
+    text-align: center;
+}
+
+em{
+    padding: 4%;
+    font-size: 2em;
+    color: gray;
+}
+
+/********************************************************* products ***********************************************************/
+
+#products{
+    text-align: center;
+    padding: 5% 10%;
+}
+
+.products-title{
+    font-size: 70px;
+    font-family: 'Berkshire Swash', cursive;
+    color:#000;
+    margin-bottom: 1%;
+    text-align: center;
+}
+/*
+.hr3{
+    border-style:none;
+    border-color:#000;
+    border-top-style: dotted ;
+    border-width: 4px;
+    width: 15%; 
+   
+}*/
+
+.card-img{
+    width: 100%;
+}
+
+.asif-card{
+    margin-bottom: 3%;
+}
+
+.product1{
+    background-color: #000;
+}
+
+.for-more-product{
+    color: #000;
+    margin: 1%;
+    padding-bottom: 1%;
+    font-size: 4rem;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.img7{
+    width: 66%;
+}
+
+.img12{ 
+    height: 398%;
+
+}
+.img13{
+    width: 75%;
+}
+
+.img18{
+    width: 48%;
+}
+
+.color-section{
+    background-color: #000;
+    margin-top: 2%;
+
+}
+/************************************************ Your order ******************************************************************/
+
+#order{
+    padding: 5% 10%;
+    background-color: #000;
+    text-align: center;
+}
+
+input{
+    background-color: grey;
+}
+label{
+    color: #fff;
+}
+.order-title{
+    font-size: 70px;
+    font-family: 'Berkshire Swash', cursive;
+    color: gray;
+    text-align: center;
+
+}
+.hr3{
+    border-style:none;
+    border-color:#fff;
+    border-top-style: dotted ;
+    border-width: 4px;
+    width: 11%; 
+    margin: 0 auto 2% auto
+
+}
+
+
+/************************************************ footers ***********************************************/
+
+#footer{
+    padding: 5% 10%;
+    text-align: center;
+    font-size: 70%;
+
+}
+
+.asif-icon {
+    padding: 5px 10px;
+    margin-bottom: 1%;
+    font-size: 4em;
+    color: gray;
+}
+.asif-icon:hover{
+    color: #000;
+} 
+
+img:hover{
+    transform: scale(1.1,1.1);
+    transition: 2s transform;
+  }
+
+/************************************************ media  ***********************************************/
+@media (max-width: 995px){
+    .phoneimg{
+        transform: rotate(0);
+    }
+}
+ 
+@media (max-width:728px) and (min-width:590px){
+    #testimonials h2{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:590px){
+    #testimonials h2{
+        font-size: 20px;
+    }
+    em{
+        font-size: 1em;
+    }
+    #home  h1{
+        font-size: 28px;
+    }
+    #home  h2{
+        font-size: 22px;
+    }
+    #home  img{
+        margin-top: 3%;
+        width: 40%;
+    }
+    .features-box h3{
+        font-size: 22px;
+    }
+    .features-box p{
+        font-size: 18px;
+    }
+    .products-title{
+        font-size: 30px;
+    }
+    .order-title{
+        font-size: 2em;
+    }
+    .for-more-product{
+        font-size: 2rem;
+        margin: 2%;
+    }
+    .asif-icon{
+        font-size: 3.7em;
+    }
+    .asif-icon:hover{
+        color: blue;
+    }
+    .card-img{
+        width: 50%;
+    }
+}
